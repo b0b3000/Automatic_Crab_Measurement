@@ -3,7 +3,7 @@ import cv2
 from pathlib import Path
 
 def load_humanplotted_2d_points(imgptpair_filepath, lengths_filepath, left_fname):
-    # Read EventMeasure exports
+    # Read EventMeasure exports A
     points = pd.read_csv(imgptpair_filepath, sep="\t")
     lengths = pd.read_csv(lengths_filepath, sep="\t")
 
